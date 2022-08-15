@@ -1,0 +1,121 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .a {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .parag{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .stepbox { margin-top: 10px; }
+    .stepbox:last-child { margin-top: 10px; }
+    .work { margin-bottom: 40px; }
+    .work:last-of-type { margin-bottom: 60px; }
+    
+    .phone { width: 50%; }
+    
+    .icons { 
+        width: 17px;
+        margin-right: 5px;
+    }
+    
+    .city{ font-size: 90%; }
+    
+    .planbox {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .planprice { font-size: 250%; }
+    .contact { width: 80%; }
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .a { padding: 0 4%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    
+    .nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .nav li {
+        display: block;
+    }
+    
+    .nav li a:link,
+    .nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .nav { margin-top: 10px; }
+
+    .sticky .nav li a:link,
+    .sticky .nav li a:visited { padding: 10px 0; }
+    .sticky .nav-icon { margin-top: 10px; }
+    .sticky .nav-icon i { color: #555; }
+    
+    
+    
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    
+    .parag {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .phone { width: 40%; }
+    .stepbox:first-child { text-align: center; }
+    
+    .work div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    
+    .work { margin-bottom: 20px; }
+    .work:last-of-type { margin-bottom: 20px; }
+    
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .contact{width: 100%; }
+}
+
